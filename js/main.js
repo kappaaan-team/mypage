@@ -2,7 +2,7 @@ const imageContainer = document.getElementById('imageContainer');
 
 // 画像の数とパスを定義
 const numberOfImages = 37;  //画像数に合わせて数値を変更
-const imagePath = './img/portfolio_ayane/IMG (%number%).PNG';
+const imagePath = '../img/portfolio_ayane/IMG (%number%).PNG';
 
 // 画像要素を作成して追加
 for (let i = 1; i <= numberOfImages; i++) {
