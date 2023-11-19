@@ -1,0 +1,54 @@
+
+
+/* main */
+/* 画像が増えた場合、main.jsを変更する */
+.portfolio{
+    column-count:3;
+    column-gap:0%;
+}
+
+.img_box{
+
+    width: 30wv;
+    /* height:300px ;
+    object-fit:cover; */
+}
+
+.ayane_img{
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+/* ------------------------- メインコンテンツ終わり ------------------------------ */
+
+
+/* ------------------------- PCサイズ ------------------------------ */
+
+
+
+
+@media screen and (min-width:1024px) {
+    .portfolio{
+        column-count:4;
+        column-gap:1%;
+    }
+    
+    .img_box{
+    
+        width: 25wv;
+        /* height:300px ;
+        object-fit:cover; */
+    }
+    
+    .ayane_img{
+        width: 100%;
+        
+    }
+}
